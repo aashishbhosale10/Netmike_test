@@ -1,6 +1,6 @@
-from netmiko import 
+from netmiko import ConnectHandler
 
-ConnectHandlercisco_device = {              
+cisco_device = {              
 'device_type' : 'cisco_ios',              
 'host' : '192.168.101.148',             
 'username' : 'cisco',             
