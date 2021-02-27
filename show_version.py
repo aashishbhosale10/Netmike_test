@@ -18,6 +18,5 @@ connection.enable()
 output = connection.send_command('sh run')
 print(output)
 print(connection.check_config_mode())
-p
-rint('Closing connection')
+print('Closing connection')
 connection.disconnect()
